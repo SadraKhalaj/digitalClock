@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #00ff00;
+  font-family: 'Digital Numbers', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.toDay {
+  border: 2px solid #00ff00;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+#weekDay,
+#day,
+#time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-shadow: 0 0 5px #00ff00;
+  margin: 5px 0;
+}
